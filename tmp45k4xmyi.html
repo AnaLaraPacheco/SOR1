@@ -1,0 +1,39 @@
+<body bgcolor="#f0f0f8">
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#6622aa">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>TypeError</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial">Python 3.10.1: C:\Program Files\Python310\python.exe<br>Mon May 30 17:44:43 2022</font></td></tr></table>
+    
+<p>A problem occurred in a Python script.  Here is the sequence of
+function calls leading up to the error, in the order they occurred.</p>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file://C:\Users\Alunos\PycharmProjects\pythonProjectAULA\cgi-bin\quadrado.py">C:\Users\Alunos\PycharmProjects\pythonProjectAULA\cgi-bin\quadrado.py</a> in <strong>&lt;module&gt;</strong></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;10</small>&nbsp;############&nbsp;logica&nbsp;do&nbsp;script<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;11</small>&nbsp;#&nbsp;recebe&nbsp;o&nbsp;valor&nbsp;do&nbsp;lado&nbsp;do&nbsp;usuario<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;12</small>&nbsp;lado_&nbsp;=&nbsp;float(form.getvalue('lado'))<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;13</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;14</small>&nbsp;#&nbsp;calcular&nbsp;area<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">lado_ <em>undefined</em>, <em>builtin</em> <strong>float</strong>&nbsp;= &lt;class 'float'&gt;, <strong>form</strong>&nbsp;= FieldStorage(None, None, []), form.<strong>getvalue</strong>&nbsp;= &lt;bound method FieldStorage.getvalue of FieldStorage(None, None, [])&gt;</font></small></td></tr></table><p><strong>TypeError</strong>: float() argument must be a string or a real number, not 'NoneType'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>args&nbsp;=
+("float() argument must be a string or a real number, not 'NoneType'",)
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>with_traceback&nbsp;=
+&lt;built-in method with_traceback of TypeError object&gt;
+
+
+<!-- The above is a description of an error in a Python program, formatted
+     for a web browser because the 'cgitb' module was enabled.  In case you
+     are not reading this in a web browser, here is the original traceback:
+
+Traceback (most recent call last):
+  File "C:\Users\Alunos\PycharmProjects\pythonProjectAULA\cgi-bin\quadrado.py", line 12, in &lt;module&gt;
+    lado_ = float(form.getvalue('lado'))
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+
+-->
